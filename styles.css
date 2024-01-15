@@ -61,6 +61,7 @@ p,
 a {
   font-family: "Manrope", sans-serif;
   font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
+  line-height: 1.25;
 }
 
 /*
@@ -165,4 +166,46 @@ Phone container
 .phone {
   max-width: clamp(20rem, 10.1408rem + 42.0657vw, 48rem);
   margin-inline: auto;
+}
+
+/*
+================
+Benefits section
+================
+*/
+
+.benefits {
+  background-color: var(--ghost-white);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.benefits-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 70rem;
+  margin-inline: auto;
+}
+
+.benefits-col {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.benefits-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid var(--davy-grey);
+  border-radius: 50%;
+  font-family: "Fraunces", serif;
+}
+
+.benefits-col h2 {
+  margin-bottom: clamp(1rem, 0.7359rem + 1.1268vw, 1.75rem);
 }
