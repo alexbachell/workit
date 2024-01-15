@@ -211,6 +211,25 @@ Benefits section
   margin-bottom: clamp(1rem, 0.7359rem + 1.1268vw, 1.75rem);
 }
 
+.benefits-divider {
+  position: relative;
+  overflow: hidden;
+  height: clamp(4rem, 3.2958rem + 3.0047vw, 6rem);
+  background-color: blue;
+  z-index: 10;
+}
+
+.benefits-divider::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: clamp(4rem, 3.2958rem + 3.0047vw, 6rem);
+  top: 0;
+  border-radius: 0 0 50% 50%;
+  background-color: var(--ghost-white);
+  z-index: -10;
+}
+
 /* Benefits tablet breakpoint styling */
 @media (width <= 60rem) {
   .benefits {
