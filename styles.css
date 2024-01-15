@@ -61,7 +61,7 @@ p,
 a {
   font-family: "Manrope", sans-serif;
   font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
-  line-height: 1.25;
+  line-height: 1.75;
 }
 
 /*
