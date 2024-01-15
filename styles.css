@@ -60,3 +60,37 @@ a {
   font-family: "Manrope", sans-serif;
   font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
 }
+
+/*
+==========
+Navigation
+==========
+*/
+
+/* Nav tag */
+nav {
+  background-color: var(--dark-purple);
+  padding-block: 3.5rem;
+}
+
+/* Nav container */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.secondary-btn {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 3px solid var(--eucalyptus);
+  padding-bottom: 0.25rem;
+  transition: color 200ms ease-in-out;
+}
+
+.secondary-btn:hover {
+  color: var(--eucalyptus);
+}
