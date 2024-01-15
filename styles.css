@@ -64,6 +64,39 @@ a {
 }
 
 /*
+=======
+Buttons
+=======
+*/
+
+.primary-btn {
+  display: inline-block;
+  color: var(--dark-purple);
+  text-decoration: none;
+  background-color: var(--eucalyptus);
+  border: 2px solid var(--eucalyptus);
+  padding: 1rem 2rem;
+  transition: all 200ms ease-in-out;
+}
+
+.primary-btn:hover {
+  color: var(--eucalyptus);
+  background-color: transparent;
+}
+
+.secondary-btn {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 3px solid var(--eucalyptus);
+  padding-bottom: 0.25rem;
+  transition: color 200ms ease-in-out;
+}
+
+.secondary-btn:hover {
+  color: var(--eucalyptus);
+}
+
+/*
 ==========
 Navigation
 ==========
@@ -101,37 +134,4 @@ Hero section
 .hero-section h1 {
   margin-inline: auto;
   margin-bottom: 2.5rem;
-}
-
-/*
-=======
-Buttons
-=======
-*/
-
-.primary-btn {
-  display: inline-block;
-  color: var(--dark-purple);
-  text-decoration: none;
-  background-color: var(--eucalyptus);
-  border: 2px solid var(--eucalyptus);
-  padding: 1rem 2rem;
-  transition: all 200ms ease-in-out;
-}
-
-.primary-btn:hover {
-  color: var(--eucalyptus);
-  background-color: transparent;
-}
-
-.secondary-btn {
-  color: var(--white);
-  text-decoration: none;
-  border-bottom: 3px solid var(--eucalyptus);
-  padding-bottom: 0.25rem;
-  transition: color 200ms ease-in-out;
-}
-
-.secondary-btn:hover {
-  color: var(--eucalyptus);
 }
