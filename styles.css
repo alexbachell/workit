@@ -30,3 +30,19 @@ video {
   display: block;
   max-width: 100%;
 }
+
+/*
+==========
+Typography
+==========
+*/
+
+h1,
+h2 {
+  font-family: "Fraunces", serif;
+}
+
+p,
+a {
+  font-family: "Manrope", sans-serif;
+}
