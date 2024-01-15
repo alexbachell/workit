@@ -182,7 +182,7 @@ Benefits section
 
 .benefits-container {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   max-width: 70rem;
   margin-inline: auto;
 }
@@ -200,8 +200,8 @@ Benefits section
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 3.5rem;
-  height: 3.5rem;
+  min-width: 3.5rem;
+  min-height: 3.5rem;
   border: 1px solid var(--davy-grey);
   border-radius: 50%;
   font-family: "Fraunces", serif;
@@ -209,4 +209,35 @@ Benefits section
 
 .benefits-col h2 {
   margin-bottom: clamp(1rem, 0.7359rem + 1.1268vw, 1.75rem);
+}
+
+/* Benefits tablet breakpoint styling */
+@media (width <= 60rem) {
+  .benefits {
+    text-align: left;
+  }
+
+  .benefits-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .benefits-col {
+    flex-direction: row;
+    max-width: 35rem;
+    gap: 2rem;
+  }
+}
+
+/* Benefits mobile breakpoint styling */
+@media (width <= 32rem) {
+  .benefits {
+    text-align: center;
+  }
+
+  .benefits-col {
+    flex-direction: column;
+    max-width: 21rem;
+  }
 }
