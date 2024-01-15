@@ -1,3 +1,12 @@
+:root {
+  /* Custom color variables */
+  --dark-purple: #24053e;
+  --eucalyptus: #44ffa1;
+  --davy-grey: #584d62;
+  --ghost-white: #fcf8ff;
+  --white: #ffffff;
+}
+
 /*
 ===========
 Basic reset
