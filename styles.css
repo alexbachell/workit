@@ -42,7 +42,12 @@ h2 {
   font-family: "Fraunces", serif;
 }
 
+h1 {
+  font-size: clamp(3.125rem, 2.4648rem + 2.8169vw, 5rem);
+}
+
 p,
 a {
   font-family: "Manrope", sans-serif;
+  font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
 }
