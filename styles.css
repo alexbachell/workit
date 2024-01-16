@@ -250,7 +250,7 @@ Benefits section
 }
 
 /* Benefits mobile breakpoint styling */
-@media (width <= 32rem) {
+@media (width <= 35rem) {
   .benefits {
     text-align: center;
   }
@@ -269,12 +269,13 @@ Founder section
 
 .founder {
   background-color: var(--white);
+  padding: 1rem;
 }
 
 .founder-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  max-width: 70rem;
+  max-width: 68rem;
   margin-inline: auto;
 }
 
@@ -288,8 +289,8 @@ Founder section
   color: var(--white);
   background-color: var(--dark-purple);
   padding: clamp(1rem, 0.1197rem + 3.7559vw, 3.5rem);
-  max-width: 45rem;
-  max-height: 26rem;
+  /* max-width: 45rem; */
+  /* max-height: 26rem; */
   margin-top: 12rem;
 }
 
@@ -301,4 +302,18 @@ Founder section
 .founder-content p {
   margin-bottom: clamp(1rem, 0.6479rem + 1.5023vw, 2rem);
   max-width: 37.5rem;
+}
+
+/* Founder mobile breakpoint styling */
+@media (width <= 35rem) {
+  .founder-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .founder-content {
+    grid-column: 1 / 1;
+    max-width: 22rem;
+    margin-top: -4rem;
+  }
 }
