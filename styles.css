@@ -119,10 +119,6 @@ nav {
   padding-inline: 1rem;
 }
 
-.h1-decoration {
-  border-bottom: 3px solid var(--eucalyptus);
-}
-
 /* Logo */
 .header-logo {
   fill: var(--white);
@@ -148,7 +144,7 @@ Hero section
 
 /* Hero container */
 .hero-container {
-  padding: 2rem 1rem 2rem 1rem;
+  padding-block: 2rem;
 }
 
 .hero-container h1 {
@@ -156,16 +152,9 @@ Hero section
   margin-bottom: 2.5rem;
 }
 
-.hero-container .primary-btn {
-  margin-bottom: 4rem;
-}
-
-/* Hero divider */
-.hero-section .divider {
-  position: absolute;
-  width: 100%;
-  transform: translateY(-2rem);
-  fill: var(--dark-purple);
+/* H1 decoration */
+.h1-decoration {
+  border-bottom: 3px solid var(--eucalyptus);
 }
 
 /*
@@ -215,7 +204,7 @@ Benefits section
   margin-bottom: clamp(1rem, 0.7359rem + 1.1268vw, 1.75rem);
 }
 
-.benefits .divider {
+.benefits-divider {
   position: absolute;
   width: 100%;
   transform: translateY(-2rem);
