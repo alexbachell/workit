@@ -160,7 +160,6 @@ Benefits section
 .benefits {
   background-color: var(--ghost-white);
   text-align: center;
-  padding: 2rem 1rem;
 }
 
 .benefits-container {
@@ -168,6 +167,7 @@ Benefits section
   gap: 3rem;
   max-width: 70rem;
   margin-inline: auto;
+  padding: 8rem 1rem;
 }
 
 .benefits-col {
@@ -192,6 +192,10 @@ Benefits section
 
 .benefits-col h2 {
   margin-bottom: clamp(1rem, 0.7359rem + 1.1268vw, 1.75rem);
+}
+
+.benefits .divider {
+  fill: var(--ghost-white);
 }
 
 /* Benefits tablet breakpoint styling */
@@ -233,7 +237,7 @@ Founder section
 
 .founder {
   background-color: var(--white);
-  padding: 1rem;
+  padding: 8rem 1rem;
 }
 
 .founder-container {
