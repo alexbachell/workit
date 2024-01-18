@@ -6,7 +6,7 @@ This is my solution to the [Workit landing page challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Desktop screenshot](#desktop-screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -25,6 +25,6 @@ Users of this solution should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Desktop screenshot
 
-![](./ab-workit-solution-screenshot.jpg)
+![](./screenshots./ab-workit-solution-screenshot.jpg)
