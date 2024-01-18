@@ -38,6 +38,10 @@ Users of this solution should be able to:
 
 ![](./ab-workit-solution-mobile-screenshot.jpg)
 
+## Links
+
+- Solution: [Solution](https://github.com/alexbachell/Workit)
+
 ## My process
 
 ### Built with
@@ -49,7 +53,7 @@ Users of this solution should be able to:
 
 ### What I learned
 
-My primary take away is that my HTML & CSS chops are actually more advanced than I previously gave myself credit for. I was able to look at the design file, make a mental map of how I would approach it, and execute what I envisioned (tweaking along the way, of course).
+My primary take away is that my HTML & CSS chops are actually more advanced than I previously gave myself credit for. I was able to look at the design file, make a mental map of how I would approach it, execute what I envisioned (tweaking along the way, of course), all while writing the code by hand.
 
 This was my first time using CSS Grid. I was aware of the layout system in the abstract, but had never had the opportunity to apply it in a project. It is nice to have another tool in the toolbox. Using CSS Grid to solve for the founder section was definitely a challenge at first, but turning on the grid inspection tool in Chrome really helped me visually understand what I was doing.
 
@@ -60,6 +64,8 @@ Using GitHub version control also allowed me to stop and think about what I have
 ### Continued development
 
 This project took me more time to complete than I would have liked - probably 6 hours in total. In my previous experience as a WordPress/Divi developer I was used to only really using page builders, which I now know created some poor work habits. I will be able to get the development time down purely by practicing vanilla HTML & CSS more.
+
+CSS files can quickly get very difficult to manage, especially when you start adding in media queries for multiple devices. I would like to explore using stylesheets on a per breakpoint basis.
 
 As this was my first time properly utilizing version control via GitHub, I'm sure my commit history and messages are a bit messy. Again, more practice will solve this.
 
