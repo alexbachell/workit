@@ -219,6 +219,8 @@ Hero section
 /* Hero image */
 .hero-image {
   position: relative;
+  width: 100%;
+  height: auto;
   max-width: clamp(20rem, 12rem + 40vw, 48rem);
   padding: 1rem;
   margin-inline: auto;
