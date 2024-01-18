@@ -27,4 +27,4 @@ Users of this solution should be able to:
 
 ### Desktop screenshot
 
-![](./screenshots./ab-workit-solution-screenshot.jpg)
+![](./screenshots/ab-workit-solution-screenshot.jpg)
