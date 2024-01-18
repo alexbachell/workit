@@ -27,4 +27,12 @@ Users of this solution should be able to:
 
 ### Desktop screenshot
 
-![](./screenshots/ab-workit-solution-screenshot.jpg)
+![](./ab-workit-solution-desktop-screenshot.jpg)
+
+### Tablet screenshot
+
+![](./ab-workit-solution-tablet-screenshot.jpg)
+
+### Mobile screenshot
+
+![](./ab-workit-solution-mobile-screenshot.jpg)
