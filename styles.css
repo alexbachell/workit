@@ -351,6 +351,8 @@ Founder section
 /* Founder profile picture */
 .profile-picture {
   grid-column: 1/3;
+  width: 100%;
+  height: auto;
   max-width: clamp(17.5rem, 13.0986rem + 18.7793vw, 30rem);
 }
 
