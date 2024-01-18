@@ -137,18 +137,50 @@ Hero section
 
 /* Hero section */
 .hero-section {
+  position: relative;
   background-color: var(--dark-purple);
   color: var(--white);
   text-align: center;
 }
 
+/* Hero section pseudo images */
+.hero-section::before {
+  content: url(./images/bg-pattern-1.svg);
+  position: absolute;
+  left: 0;
+  margin-left: -8rem;
+}
+
+.hero-section::after {
+  content: url(./images/bg-pattern-2.svg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 12rem;
+  margin-right: -3rem;
+}
+
+/* Hide hero pseudo image on screen sizes equal to or less than 44rem */
+@media (width <= 44rem) {
+  .hero-section::before,
+  .hero-section::after {
+    display: none;
+  }
+}
+
 /* Hero container */
 .hero-container {
-  padding: 2rem 0;
+  padding: 2rem 1rem;
+}
+
+/* Hero container mobile styling */
+@media (width <= 35rem) {
+  .hero-container {
+    padding: 0 1rem;
+  }
 }
 
 .hero-container h1 {
-  padding-inline: 1rem;
   margin-inline: auto;
   margin-bottom: 2.5rem;
 }
@@ -310,6 +342,7 @@ Founder section
   grid-template-columns: repeat(6, 1fr);
   max-width: 68rem;
   margin-inline: auto;
+  padding: 0 1rem;
 }
 
 /* Founder profile picture */
@@ -320,6 +353,7 @@ Founder section
 
 /* Founder content */
 .founder-content {
+  position: relative;
   grid-column: 3 / -1;
   color: var(--white);
   background-color: var(--dark-purple);
@@ -337,11 +371,27 @@ Founder section
   max-width: 37.5rem;
 }
 
+/* Founder pseudo image */
+.founder-content::after {
+  content: url(./images/bg-pattern-3.svg);
+  position: absolute;
+  right: 0;
+  margin-top: -2rem;
+}
+
+/* Hides founder pseudo image on screen sizes equal to or less than 44rem */
+@media (width <= 44rem) {
+  .founder-content::after {
+    display: none;
+  }
+}
+
 /* Founder mobile breakpoint styling */
 @media (width <= 35rem) {
   .founder-container {
     grid-template-columns: 1fr;
     justify-items: center;
+    text-align: center;
   }
 
   .founder-content {
