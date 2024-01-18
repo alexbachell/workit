@@ -142,12 +142,12 @@ Hero section
   text-align: center;
 }
 
-/* Hero container */
 .hero-container {
-  padding-block: 2rem;
+  padding: 2rem 0;
 }
 
 .hero-container h1 {
+  padding-inline: 1rem;
   margin-inline: auto;
   margin-bottom: 2.5rem;
 }
@@ -155,6 +155,34 @@ Hero section
 /* H1 decoration */
 .h1-decoration {
   border-bottom: 3px solid var(--eucalyptus);
+}
+
+/* Hero image container */
+.hero-image-container {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ghost-white);
+  padding: 2rem 1rem;
+}
+
+.hero-image-container::before {
+  content: "";
+  position: absolute;
+  background-color: var(--dark-purple);
+  left: 0;
+  height: 40%;
+  width: 100%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: scale(1.5);
+}
+
+/* Hero image */
+.hero-image {
+  position: relative;
+  max-width: clamp(20rem, 12rem + 40vw, 48rem);
+  padding: 1rem;
+  margin-inline: auto;
 }
 
 /*
@@ -176,7 +204,7 @@ Benefits section
   gap: 3rem;
   max-width: 70rem;
   margin-inline: auto;
-  padding: 8rem 1rem;
+  padding: 2rem 1rem;
 }
 
 /* Benefits columns */
